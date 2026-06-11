@@ -65,9 +65,10 @@ NLP_HEALTH_PROJECT/
 │   └── visualization/            # Chart generation (Spanish and English versions)
 ├── DATA/                         # All CSV data files (originals + augmented)
 ├── RESULTS/                      # Model prediction CSVs, log files, ensemble metrics
-├── SLURMS/                       # SBATCH job scripts — one per training run
-├── nlp08_environment.yml         # Full conda environment spec
-└── nlp08_environment.txt         # pip freeze snapshot
+├── SLURMS/
+├── UTILS/
+│   ├── nlp08_environment.yml         # Full conda environment spec
+└── └── nlp08_environment.txt         # pip freeze snapshot
 ```
 
 ---
